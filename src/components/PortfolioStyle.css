@@ -1,0 +1,9 @@
+.portfolio-page{
+    background-color: #E0E1E1;
+    height: 100vh;
+}
+.container-flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}

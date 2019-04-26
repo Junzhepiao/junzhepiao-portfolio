@@ -1,0 +1,65 @@
+.container-flux-project{
+  width:30%;
+  display:flex;
+  flex-wrap:wrap;
+  align-content:center;
+  justify-content: center;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.project-picture{
+    position: relative;
+    width: 100%;
+  }
+  
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0.95;
+
+  }
+  
+.project-picture:hover .project-overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  }
+  
+.project-text {
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .visible.transition {
+    margin-top: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    display: inline-block !important;
+    position: relative;
+    top: auto;
+    left:auto;
+    right:auto;
+    bottom:auto;
+  }
