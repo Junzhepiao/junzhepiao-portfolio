@@ -45,8 +45,8 @@ class About extends Component {
                             <div>
                             <h1 className="name">Jun Piao</h1>
                                 <p className="title">Full-Stack Web Developer</p>
-                                <p><Icon color="black" className='mail' size='md'/>: junzhepiao@gmail.com</p>
-                                <p><Icon color="black" className='wechat' size='md'/>: piaojunzhe555</p>
+                                <p><Icon color="black" className='mail' size='large'/>: junzhepiao@gmail.com</p>
+                                <p><Icon color="black" className='wechat' size='large'/>: piaojunzhe555</p>
                                 <span><p>Galvanize Phoenix - 04/2019</p></span>
                                 <span><p>ASU - 12/2018</p></span>
                                 <div className="logos">

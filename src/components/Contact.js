@@ -29,10 +29,10 @@ class Contact extends Component {
                     </h4>
                 </div>
                 <div className="resume-button text-center p-4">
-                <a href="https://drive.google.com/open?id=1JoT3ya1trrZOR69vCeU2i01rU41dYbeh"><Button color='blue'><Icon name='google' /> Resume</Button></a>
+                <a href="https://drive.google.com/open?id=1Cw31Q3SfdH_CrNLRG54d2R_HwjrZzOdO"><Button color='blue'><Icon name='google' /> Resume</Button></a>
                 </div>
                 <div className="gmail-button text-center p-2">
-                <Button content={visible ? 'Hide' : 'Show'} onClick={this.toggleVisibility} color='red'><Icon name='google' /> Email</Button>
+                <Button children={visible ? 'Hide' : 'Show'} onClick={this.toggleVisibility} color='red'><Icon name='google' /> Email</Button>
                 <Divider hidden />
         <Transition visible={visible} animation='scale' duration={500}>
           <Label>Junzhepiao@gmail.com</Label>

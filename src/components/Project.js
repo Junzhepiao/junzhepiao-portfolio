@@ -31,15 +31,15 @@ class Project extends Component {
                 <Button inverted color="red" onClick={this.toggle}>Learn More</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} external={externalCloseBtn}>
           <ModalHeader>{this.props.project.name}</ModalHeader>
-          <UncontrolledCarousel items={this.props.project.slides} />
+          <UncontrolledCarousel items={this.props.project.slides} captionText={this.props.project.slides.caption}/>
           <ModalBody className="text-center">
             <h3>Description:</h3>
             <h3>{this.props.project.description}</h3><br />
             <h4>Features:</h4>
             <h4>{this.props.project.features}</h4><br />
 
-          <a href={this.props.project.youtube}><Button size='mini' color='youtube' floated='center'><Icon name='youtube' /> YouTube</Button></a>
-          <a href={this.props.project.github}><Button size='mini' color='black' floated='center'><Icon name='github' /> Github</Button></a>
+          <a href={this.props.project.youtube}><Button size='mini' color='youtube' ><Icon name='youtube' /> YouTube</Button></a>
+          <a href={this.props.project.github}><Button size='mini' color='black' ><Icon name='github' /> Github</Button></a>
           </ModalBody>
           <ModalFooter >
           <Button color='red' onClick={this.toggle} floated='right'>Close</Button>

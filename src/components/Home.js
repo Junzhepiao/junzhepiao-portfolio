@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SplitText from 'react-pose-text';
 import './HomeStyle.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Icon } from 'semantic-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 class Home extends Component {
@@ -51,18 +51,18 @@ class Home extends Component {
                     backgroundRepeat: 'non-repeat'
                 }}>
         <div className="container text-center ">
-        <p className="h1"><span></span>
+        <div className="h1">
             <span style={{ color: '#FF0057' }} className="myName"><SplitText initialPose="exit" pose="enter" wordPoses={wordPoses} charPoses={charPoses} >
                 Hi! I am Junzhe "Jun" Piao,
             </SplitText></span>
-        </p>
-        <p className="h1"><span></span>
+        </div>
+        <div className="h1">
             <span style={{ color: '#FF0057' }} className="myName"><SplitText initialPose="exit" pose="enter" wordPoses={wordPoses} charPoses={charPoses} >
                 A Full-Stack Web Developer!
             </SplitText></span>
-        </p>
+        </div>
         <div>
-        <a className="nav-link" href='#menu'><FontAwesomeIcon icon="arrow-circle-down" style={{color:"white"}} size="3x"/></a>
+        <a className="nav-link" href='#menu'><Icon name='arrow circle down' size='big'/></a>
         </div>
         </div>
     </div>

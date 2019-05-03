@@ -7,23 +7,23 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 class Menu extends Component {
   render() {
     return (
-        <div className="Content-page">
+        <div className="content-page">
         <nav className="navbar-expand-lg navbar-dark bg-dark navbar-fixed-top sticky-top">
             <div className="row">
                 <div className="col-md-10 offset-md-1">
                     <div className="collapse navbar-collapse" id="navbarColor01">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active mr-2">
-                                <a className="nav-link" href='/' activeClassName="activeRoute">Home</a>
+                                <a className="nav-link" href='/' activeclassname="activeRoute">Home</a>
                             </li>
                             <li className="nav-item mr-2">
-                                <a className="nav-link" href='#about' activeClassName="activeRoute">About</a>
+                                <a className="nav-link" href='#about' activeclassname="activeRoute">About</a>
                             </li>
                             <li className="nav-item mr-2">
-                                <a className="nav-link" href='#portfolio' activeClassName="activeRoute">Projects</a>
+                                <a className="nav-link" href='#portfolio' activeclassname="activeRoute">Projects</a>
                             </li>
                             <li className="nav-item mr-2">
-                                <a className="nav-link" href='#contact' activeClassName="activeRoute">Contact</a>
+                                <a className="nav-link" href='#contact' activeclassname="activeRoute">Contact</a>
                             </li>
                         </ul>
                     </div>
